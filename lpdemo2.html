@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Marketing Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+        }
+
+        .header-line {
+            border: none;
+            border-top: 2px solid #333;
+            margin-top: 10px;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        .main-content {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.content-left,
+.content-right {
+    width: 50%;
+    float: left;
+    padding: 0 20px;
+}
+
+.content-left img {
+    max-width: 100%;
+}
+
+.content-right form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content-right input[type="text"],
+.content-right input[type="email"],
+.content-right textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.content-right button {
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form h3,
+        .registration-form h4 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+.content-left img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.content-right form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Added margin to create distance from footer */
+
+}
+
+.registration-form h3,
+.registration-form h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.registration-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+    background-color: #555;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    margin-right: 15px;
+}
+
+.submit-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    padding-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Company Logo">
+            </div>
+            <hr class="header-line">
+        </div>
+    </header>
+
+<section class="main-content">
+        <div class="container">
+            <div class="content-left" style="color: black;">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1> 
+                <img src="thumbnew.png" alt="Product Thumbnail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+            </div>
+            <div class="content-right"> 
+                 <form class="registration-form" action="#" method="post" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+                    <h4>Registration Page</h4>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="phone" name="phone" class="form-control" placeholder="Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="website" name="website" class="form-control" placeholder="Your Website">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="social" name="social" class="form-control" placeholder="Your Social Media">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-control" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="age" name="age" class="form-control" placeholder="Your Age">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="birthdate" name="birthdate" class="form-control" placeholder="Your Birthdate">
+                    </div>
+                    <div class="form-group">
+                        <select id="gender" name="gender" class="form-control">
+                            <option value="">Select your gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="occupation">Occupation:</label> -->
+                        <select id="occupation" name="occupation" class="form-control">
+                            <option value="">Select Occupation</option>
+                            <option value="student">Student</option>
+                            <option value="engineer">Engineer</option>
+                            <option value="doctor">Doctor</option>
+                            <option value="teacher">Teacher</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="optin1" name="optin1">
+                        <label for="optin1">I agree to the terms and conditions , Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="optin2" name="optin2">
+                        <label for="optin2">I want to receive promotional emails</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Affiliate Marketing. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
